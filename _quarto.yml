@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "causal note"
+  author: "Norah Jones"
+  date: "2025/2/16"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
